@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="CSS/normalize.css">
+	<link rel="stylesheet" href="CSS/styles.css">
+	<link rel="icon" type="image/x-icon" href="IMG/icon.png">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<title>3D</title>
+</head>
+<body>
+    <div class="backVid" id="video">
+        <video class="findVid" autoplay muted loop>
+            <source src="IMG/vid1.mp4" type="video/mp4">
+        </video>
+    </div>
+
+
+	<div class="width-adjust">
+		<main id="findMain" class="">
+			<form class="internal-width" id="firstForm">
+				<div>
+					<h2>Register</h2>
+				</div>
+				<div>
+					<div>
+						<div>
+							<label for="namef1">Name</label>
+						</div>
+						<input type="text" id="namef1" name="Name" placeholder="Enter your name" maxlength="35" autocomplete="on">
+					</div>
+					<div>
+						<div>
+							<label for="emailf1">Email</label>
+						</div>
+						<input type="email" id="emailf1" name="Email" placeholder="example@gmail.com" maxlength="35" autocomplete="on">
+						<div class="error-div-hide" id="findErrorsDiv">
+							<p id="errorMassage1"></p>
+							<p id="errorMassage2"></p>
+						</div>
+					</div>
+				</div>
+				<div class="gradient-input">
+					<input type="submit" value="Continue"></button>
+				</div>
+			</form>
+		</main>	
+		<section id="findSection">
+			<div class="internal-width">
+				<div>
+					<h3>Which topics are you interested in?</h3>
+				</div>
+				<form action="" id="secondForm">
+					<div>
+						<div>
+							<input type="checkbox" name="SoftwareDevelopment" id="softwareD" value="Software Development">
+							<label for="softwareD">Software Development</label>
+						</div>
+						<div>
+							<input type="checkbox" name="UserExperience" id="userE" value="User Experience">
+							<label for="userE">User Experience</label>
+						</div>
+						<div>
+							<input type="checkbox" name="GraphicDesign" id="graphicD" value="Graphic Design">
+							<label for="graphicD">Graphic Design</label>
+						</div>
+					</div>
+					<div class="gradient-input">
+						<input type="submit" value="Continue">
+					</div>
+				</form>
+			</div>
+		</section>
+		<footer id="findFooter">
+			<div class="internal-width">
+				<div>
+					<h2>Summary</h2>
+				</div>
+				<div>
+					<h3>Name: <span id="nameValue">Emely Johnson</span></h3>
+					<h3>Email: <span id="emailValue">emely@emelyjohnsonth.com</span></h3>
+				</div>
+				<div>
+					<div>
+						<h3>Topics: </h3>
+					</div>
+					<ul id="formOptions">
+						<li>User Experience</li>
+						<li>Graphic Design</li>
+					</ul>
+				</div>
+				<form class="gradient-input" id="thirdForm">
+					<input type="submit" value="Confirm"></button>
+				</form>
+			</div>
+		</footer>
+		<nav id="findNav">
+			<div>
+				<h3>Step <span id="formIndex"></span> of 3</h3>
+			</div>
+			<div>
+				
+				<div id="circle-select1" class="circle-no-select circle-select">
+					<div></div>
+				</div>
+				<div id="circle-select2" class="circle-no-select">
+					<div></div>
+				</div>
+				<div id="circle-select3" class="circle-no-select">
+					<div></div>
+				</div>
+
+			</div>
+			<div>
+				<h3>Step of</h3>
+			</div>
+		</nav>
+	</div>
+
+
+
+	<script src="JS/script.js">
+	</script>
+</body>
+</html>

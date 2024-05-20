@@ -1,0 +1,529 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #cccccc;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  overflow: hidden;
+}
+
+.backVid {
+  height: 100vh;
+  width: 100%;
+  background: #cccccc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  z-index: 0;
+  overflow: hidden;
+}
+.backVid .findVid {
+  width: 90%;
+  -webkit-transform: scale(2) translateY(10px);
+          transform: scale(2) translateY(10px);
+  opacity: 0%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.animationVideo1 .findVid {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  opacity: 100%;
+  -webkit-transition-delay: 500ms;
+          transition-delay: 500ms;
+}
+
+/* Esctructura principal, organización de tamaños */
+body .width-adjust {
+  margin: 0 auto;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  place-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+body .width-adjust main, body .width-adjust section, body .width-adjust footer {
+  border: 1.5px solid rgba(203, 203, 203, 0.8);
+  border-radius: 15px;
+  background: rgba(203, 203, 203, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  max-width: 73.5vh;
+  height: 55vh;
+  padding: 25px 0px;
+}
+body .width-adjust main .internal-width, body .width-adjust section .internal-width, body .width-adjust footer .internal-width {
+  margin: auto;
+  width: 85%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+body .width-adjust main .internal-width > :nth-child(1) h2, body .width-adjust main .internal-width > :nth-child(1) h3, body .width-adjust section .internal-width > :nth-child(1) h2, body .width-adjust section .internal-width > :nth-child(1) h3, body .width-adjust footer .internal-width > :nth-child(1) h2, body .width-adjust footer .internal-width > :nth-child(1) h3 {
+  all: unset;
+  font-size: 20px;
+  font-weight: 600;
+  color: #E5E7EB;
+  cursor: default;
+}
+body .width-adjust main .internal-width > :nth-child(1) h2::-moz-selection, body .width-adjust section .internal-width > :nth-child(1) h2::-moz-selection, body .width-adjust footer .internal-width > :nth-child(1) h2::-moz-selection {
+  background: none;
+}
+body .width-adjust main .internal-width > :nth-child(1) h2::selection, body .width-adjust section .internal-width > :nth-child(1) h2::selection, body .width-adjust footer .internal-width > :nth-child(1) h2::selection {
+  background: none;
+}
+body .width-adjust main .internal-width > :nth-child(1) h3::-moz-selection, body .width-adjust section .internal-width > :nth-child(1) h3::-moz-selection, body .width-adjust footer .internal-width > :nth-child(1) h3::-moz-selection {
+  background: none;
+}
+body .width-adjust main .internal-width > :nth-child(1) h3::selection, body .width-adjust section .internal-width > :nth-child(1) h3::selection, body .width-adjust footer .internal-width > :nth-child(1) h3::selection {
+  background: none;
+}
+body .width-adjust main .internal-width > :nth-child(2), body .width-adjust section .internal-width > :nth-child(2), body .width-adjust footer .internal-width > :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+
+/* Estrucura para mostror contenidos */
+body .width-adjust section, body .width-adjust footer {
+  display: none;
+}
+body .width-adjust label::-moz-selection {
+  background: none;
+}
+body .width-adjust label::selection {
+  background: none;
+}
+body .width-adjust input[type=submit]::-moz-selection {
+  background: none;
+}
+body .width-adjust input[type=submit]::selection {
+  background: none;
+}
+
+/* INPUT SUBMIT CLASS */
+.gradient-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.gradient-input input {
+  all: unset;
+  border-radius: 20px;
+  width: 90px;
+  text-align: center;
+  background: rgb(7, 35, 80);
+  padding: 10px 10px;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* MAIN */
+body .width-adjust main .internal-width > :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  gap: 25px;
+}
+body .width-adjust main .internal-width > :nth-child(2) > :nth-child(1), body .width-adjust main .internal-width > :nth-child(2) > :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  gap: 10px;
+}
+body .width-adjust main .internal-width > :nth-child(2) > :nth-child(1) label, body .width-adjust main .internal-width > :nth-child(2) > :nth-child(2) label {
+  cursor: pointer;
+  color: #A1A1A9;
+  font-size: 14px;
+}
+body .width-adjust main .internal-width > :nth-child(2) > :nth-child(1) input, body .width-adjust main .internal-width > :nth-child(2) > :nth-child(2) input {
+  all: unset;
+  background-color: #212936;
+  padding: 12.5px 12.5px;
+  color: #A1A1A9;
+  border-radius: 10px;
+  border: 2px solid #4D5562;
+  font-size: 13px;
+  font-weight: 600;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+body .width-adjust main .internal-width > :nth-child(2) > :nth-child(1) input::-webkit-input-placeholder, body .width-adjust main .internal-width > :nth-child(2) > :nth-child(2) input::-webkit-input-placeholder {
+  color: #C3C4CA;
+}
+body .width-adjust main .internal-width > :nth-child(2) > :nth-child(1) input::-moz-placeholder, body .width-adjust main .internal-width > :nth-child(2) > :nth-child(2) input::-moz-placeholder {
+  color: #C3C4CA;
+}
+body .width-adjust main .internal-width > :nth-child(2) > :nth-child(1) input:-ms-input-placeholder, body .width-adjust main .internal-width > :nth-child(2) > :nth-child(2) input:-ms-input-placeholder {
+  color: #C3C4CA;
+}
+body .width-adjust main .internal-width > :nth-child(2) > :nth-child(1) input::-ms-input-placeholder, body .width-adjust main .internal-width > :nth-child(2) > :nth-child(2) input::-ms-input-placeholder {
+  color: #C3C4CA;
+}
+body .width-adjust main .internal-width > :nth-child(2) > :nth-child(1) input::placeholder, body .width-adjust main .internal-width > :nth-child(2) > :nth-child(2) input::placeholder {
+  color: #C3C4CA;
+}
+body .width-adjust main .internal-width > :nth-child(2) > :nth-child(1) input:focus, body .width-adjust main .internal-width > :nth-child(2) > :nth-child(2) input:focus {
+  border-color: #C3C4CA;
+  color: #C3C4CA;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+body .width-adjust main .internal-width > :nth-child(2) > :nth-child(1) input:focus::-webkit-input-placeholder, body .width-adjust main .internal-width > :nth-child(2) > :nth-child(2) input:focus::-webkit-input-placeholder {
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+body .width-adjust main .internal-width > :nth-child(2) > :nth-child(1) input:focus::-moz-placeholder, body .width-adjust main .internal-width > :nth-child(2) > :nth-child(2) input:focus::-moz-placeholder {
+  color: white;
+  -moz-transition: 0.5s;
+  transition: 0.5s;
+}
+body .width-adjust main .internal-width > :nth-child(2) > :nth-child(1) input:focus:-ms-input-placeholder, body .width-adjust main .internal-width > :nth-child(2) > :nth-child(2) input:focus:-ms-input-placeholder {
+  color: white;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+body .width-adjust main .internal-width > :nth-child(2) > :nth-child(1) input:focus::-ms-input-placeholder, body .width-adjust main .internal-width > :nth-child(2) > :nth-child(2) input:focus::-ms-input-placeholder {
+  color: white;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+body .width-adjust main .internal-width > :nth-child(2) > :nth-child(1) input:focus::placeholder, body .width-adjust main .internal-width > :nth-child(2) > :nth-child(2) input:focus::placeholder {
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* SECTION */
+body .width-adjust section .internal-width > :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  gap: 25px;
+}
+body .width-adjust section .internal-width > :nth-child(2) > :nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  gap: 15px;
+}
+body .width-adjust section .internal-width > :nth-child(2) > :nth-child(1) > :nth-child(1), body .width-adjust section .internal-width > :nth-child(2) > :nth-child(1) > :nth-child(2), body .width-adjust section .internal-width > :nth-child(2) > :nth-child(1) > :nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: 100%;
+}
+body .width-adjust section .internal-width > :nth-child(2) > :nth-child(1) > :nth-child(1) label, body .width-adjust section .internal-width > :nth-child(2) > :nth-child(1) > :nth-child(2) label, body .width-adjust section .internal-width > :nth-child(2) > :nth-child(1) > :nth-child(3) label {
+  all: unset;
+  background-color: #394150;
+  padding: 14.5px 12.5px;
+  color: #A1A1A9;
+  border-radius: 10px;
+  border: 1.5px solid #4D5562;
+  font-size: 13px;
+  font-weight: 400;
+  width: 100%;
+  cursor: pointer;
+}
+body .width-adjust section .internal-width > :nth-child(2) > :nth-child(1) > :nth-child(1) input[type=checkbox], body .width-adjust section .internal-width > :nth-child(2) > :nth-child(1) > :nth-child(2) input[type=checkbox], body .width-adjust section .internal-width > :nth-child(2) > :nth-child(1) > :nth-child(3) input[type=checkbox] {
+  display: none;
+}
+body .width-adjust section .internal-width > :nth-child(2) > :nth-child(1) > :nth-child(1) input[type=checkbox]:checked + label, body .width-adjust section .internal-width > :nth-child(2) > :nth-child(1) > :nth-child(2) input[type=checkbox]:checked + label, body .width-adjust section .internal-width > :nth-child(2) > :nth-child(1) > :nth-child(3) input[type=checkbox]:checked + label {
+  background-color: #652CD1;
+  border-color: #845EEE;
+  color: #E5E7EB;
+  font-weight: 600;
+  -webkit-transition: 0.1s linear;
+  transition: 0.1s linear;
+}
+
+/* FOOTER */
+.width-adjust footer {
+  height: 50vh;
+}
+.width-adjust footer .internal-width h3 {
+  color: #A1A1A9;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.45px;
+}
+.width-adjust footer .internal-width h3 span {
+  color: #E5E7EB;
+}
+.width-adjust footer .internal-width h3::-moz-selection {
+  background: none;
+}
+.width-adjust footer .internal-width h3::selection {
+  background: none;
+}
+.width-adjust footer .internal-width span::-moz-selection {
+  background: #073CA9;
+}
+.width-adjust footer .internal-width span::selection {
+  background: #073CA9;
+}
+.width-adjust footer .internal-width > :nth-child(2) {
+  line-height: 0px;
+}
+.width-adjust footer .internal-width > :nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 9.5px;
+}
+.width-adjust footer .internal-width > :nth-child(3) h3, .width-adjust footer .internal-width > :nth-child(3) ul, .width-adjust footer .internal-width > :nth-child(3) li {
+  all: unset;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.45px;
+}
+.width-adjust footer .internal-width > :nth-child(3) h3 {
+  color: #A1A1A9;
+}
+.width-adjust footer .internal-width > :nth-child(3) ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  gap: 7.5px;
+  color: #E5E7EB;
+}
+.width-adjust footer .internal-width > :nth-child(3) li::before {
+  margin-left: 5px;
+  margin-right: 3.5px;
+  padding-left: 5px;
+  font-weight: 400;
+  content: "• ";
+}
+.width-adjust footer .internal-width > :nth-child(3) li::-moz-selection {
+  background: none;
+}
+.width-adjust footer .internal-width > :nth-child(3) li::selection {
+  background: none;
+}
+
+/* NAV */
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 67.5vh;
+  border: 1.5px solid rgba(203, 203, 203, 0.8);
+  border-radius: 15px;
+  background: red;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+nav > :nth-child(1) h3 {
+  font-size: 12px;
+  color: white;
+  cursor: default;
+}
+nav > :nth-child(1) h3::-moz-selection {
+  background: none;
+}
+nav > :nth-child(1) h3::selection {
+  background: none;
+}
+nav > :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 120px;
+  gap: 8.5px;
+}
+nav > :nth-child(2) .circle-no-select, nav > :nth-child(2) .circle-passed {
+  height: 3.5vh;
+  width: 3.5vh;
+  border-radius: 50%;
+  background: none;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav > :nth-child(2) .circle-no-select > :nth-child(1), nav > :nth-child(2) .circle-passed > :nth-child(1) {
+  background: #394150;
+  height: 1.65vh;
+  width: 1.65vh;
+  border-radius: 50%;
+}
+nav > :nth-child(2) .circle-select {
+  height: 3.5vh;
+  width: 3.5vh;
+  border-radius: 50%;
+  background: rgba(132, 94, 238, 0.35);
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav > :nth-child(2) .circle-select > :nth-child(1) {
+  background: rgba(132, 94, 238, 0.9);
+  height: 1.65vh;
+  width: 1.65vh;
+  border-radius: 50%;
+}
+nav > :nth-child(2) .circle-passed > :nth-child(1) {
+  background: rgba(132, 94, 238, 0.9);
+  height: 1.65vh;
+  width: 1.65vh;
+  border-radius: 50%;
+}
+nav > :nth-child(3) {
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* JS CHANGES */
+.error-div-hide {
+  display: none;
+}
+
+.width-adjust .transition-hide {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.width-adjust .display-none {
+  display: none;
+}
+.width-adjust .display-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.error-div-show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  gap: 5px;
+  width: 95%;
+  margin: 0 auto;
+}
+.error-div-show p {
+  all: unset;
+  font-size: 13px;
+  font-weight: 400;
+  color: #d31b1b;
+  cursor: default;
+}
+.error-div-show .error-class::-moz-selection {
+  background: none;
+}
+.error-div-show .error-class::selection {
+  background: none;
+}
