@@ -275,7 +275,7 @@ body{
             background: $negro;
             border-radius: 30px;
             width: 100%;
-            max-width: 3000px;
+            max-width: 1900px;
             transform: translateY(-15px);
             opacity: 0%;
             transition: 1s;
@@ -433,7 +433,7 @@ body{
         main{
             section{
                 border-radius: 25px;
-                max-width: 3000px;
+                max-width: 1900px;
                 backdrop-filter: blur(7px);
                 cursor: pointer;
                 position: relative;
@@ -606,7 +606,7 @@ body{
                 flex-flow: row nowrap;
                 width: 100%;
                 gap: .5rem;
-                max-width: 3000px;
+                max-width: 1900px;
                 >:nth-child(1){
                     width: 50%;
                     background: rgba(rgb(243, 243, 243), .85);
@@ -1137,6 +1137,7 @@ body{
                 background: rgb(0, 0, 0);
                 border-radius: 25px;
                 padding: 4.5px 0px;
+                max-width: 1900px;
                 p{
                     all: unset;
                     font-size: .75rem;

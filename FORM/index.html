@@ -7,34 +7,33 @@
 	<link rel="stylesheet" href="CSS/styles.css">
 	<link rel="icon" type="image/x-icon" href="IMG/icon.png">
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<title>3D</title>
+	<title>3D Formulario</title>
 </head>
-<body>
+<body id="body">
     <div class="backVid" id="video">
         <video class="findVid" autoplay muted loop>
             <source src="IMG/vid1.mp4" type="video/mp4">
         </video>
     </div>
 
-
-	<div class="width-adjust">
-		<main id="findMain" class="">
+	<div class="width-adjust" id="width-adjust">
+		<main id="findMain">
 			<form class="internal-width" id="firstForm">
 				<div>
-					<h2>Register</h2>
+					<h2>Registro</h2>
 				</div>
 				<div>
 					<div>
 						<div>
-							<label for="namef1">Name</label>
+							<label for="namef1">Nombre</label>
 						</div>
-						<input type="text" id="namef1" name="Name" placeholder="Enter your name" maxlength="35" autocomplete="on">
+						<input type="text" id="namef1" name="Name" placeholder="Ingresa tu nombre" maxlength="35" autocomplete="on">
 					</div>
 					<div>
 						<div>
-							<label for="emailf1">Email</label>
+							<label for="emailf1">Correo</label>
 						</div>
-						<input type="email" id="emailf1" name="Email" placeholder="example@gmail.com" maxlength="35" autocomplete="on">
+						<input type="email" id="emailf1" name="Email" placeholder="ejemplo@gmail.com" maxlength="35" autocomplete="on">
 						<div class="error-div-hide" id="findErrorsDiv">
 							<p id="errorMassage1"></p>
 							<p id="errorMassage2"></p>
@@ -42,32 +41,32 @@
 					</div>
 				</div>
 				<div class="gradient-input">
-					<input type="submit" value="Continue"></button>
+					<input type="submit" value="Continuar"></button>
 				</div>
 			</form>
 		</main>	
 		<section id="findSection">
 			<div class="internal-width">
 				<div>
-					<h3>Which topics are you interested in?</h3>
+					<h3>¿Qué temas te interesan?</h3>
 				</div>
 				<form action="" id="secondForm">
 					<div>
 						<div>
-							<input type="checkbox" name="SoftwareDevelopment" id="softwareD" value="Software Development">
-							<label for="softwareD">Software Development</label>
+							<input type="checkbox" name="SoftwareDevelopment" id="softwareD" value="Lectura de manos">
+							<label for="softwareD">Lectura de manos</label>
 						</div>
 						<div>
-							<input type="checkbox" name="UserExperience" id="userE" value="User Experience">
-							<label for="userE">User Experience</label>
+							<input type="checkbox" name="UserExperience" id="userE" value="Lectura de cartas">
+							<label for="userE">Lectura de cartas</label>
 						</div>
 						<div>
-							<input type="checkbox" name="GraphicDesign" id="graphicD" value="Graphic Design">
-							<label for="graphicD">Graphic Design</label>
+							<input type="checkbox" name="GraphicDesign" id="graphicD" value="Lectura de bola">
+							<label for="graphicD">Lectura de bola</label>
 						</div>
 					</div>
 					<div class="gradient-input">
-						<input type="submit" value="Continue">
+						<input type="submit" value="Continuar">
 					</div>
 				</form>
 			</div>
@@ -75,32 +74,31 @@
 		<footer id="findFooter">
 			<div class="internal-width">
 				<div>
-					<h2>Summary</h2>
+					<h2>Resumen</h2>
 				</div>
 				<div>
-					<h3>Name: <span id="nameValue">Emely Johnson</span></h3>
-					<h3>Email: <span id="emailValue">emely@emelyjohnsonth.com</span></h3>
+					<h3>Nombre: <span id="nameValue"></span></h3>
+					<h3>Correo: <span id="emailValue"></span></h3>
 				</div>
 				<div>
 					<div>
-						<h3>Topics: </h3>
+						<h3>Temas: </h3>
 					</div>
 					<ul id="formOptions">
-						<li>User Experience</li>
-						<li>Graphic Design</li>
 					</ul>
 				</div>
 				<form class="gradient-input" id="thirdForm">
-					<input type="submit" value="Confirm"></button>
+					<input type="submit" value="Confirmar">
 				</form>
+				<div>
+				</div>
 			</div>
 		</footer>
 		<nav id="findNav">
 			<div>
-				<h3>Step <span id="formIndex"></span> of 3</h3>
+				<h3>Posición <span id="formIndex"></span> de 3</h3>
 			</div>
 			<div>
-				
 				<div id="circle-select1" class="circle-no-select circle-select">
 					<div></div>
 				</div>
@@ -110,16 +108,16 @@
 				<div id="circle-select3" class="circle-no-select">
 					<div></div>
 				</div>
-
-			</div>
-			<div>
-				<h3>Step of</h3>
 			</div>
 		</nav>
+		<div id="regresar">
+			<a href="../index.html">
+				<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 30 30">
+					<path d="M 15 2 A 1 1 0 0 0 14.300781 2.2851562 L 3.3925781 11.207031 A 1 1 0 0 0 3.3554688 11.236328 L 3.3183594 11.267578 L 3.3183594 11.269531 A 1 1 0 0 0 3 12 A 1 1 0 0 0 4 13 L 5 13 L 5 24 C 5 25.105 5.895 26 7 26 L 23 26 C 24.105 26 25 25.105 25 24 L 25 13 L 26 13 A 1 1 0 0 0 27 12 A 1 1 0 0 0 26.681641 11.267578 L 26.666016 11.255859 A 1 1 0 0 0 26.597656 11.199219 L 25 9.8925781 L 25 6 C 25 5.448 24.552 5 24 5 L 23 5 C 22.448 5 22 5.448 22 6 L 22 7.4394531 L 15.677734 2.2675781 A 1 1 0 0 0 15 2 z M 18 15 L 22 15 L 22 23 L 18 23 L 18 15 z"></path>
+				</svg>
+			</a>
+		</div>
 	</div>
-
-
-
 	<script src="JS/script.js">
 	</script>
 </body>

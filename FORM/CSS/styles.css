@@ -12,8 +12,7 @@ body {
   font-family: "Plus Jakarta Sans", sans-serif;
   overflow: hidden;
 }
-
-.backVid {
+body .backVid {
   height: 100vh;
   width: 100%;
   background: #cccccc;
@@ -27,7 +26,7 @@ body {
   z-index: 0;
   overflow: hidden;
 }
-.backVid .findVid {
+body .backVid .findVid {
   width: 90%;
   -webkit-transform: scale(2) translateY(10px);
           transform: scale(2) translateY(10px);
@@ -35,8 +34,7 @@ body {
   -webkit-transition: 1s;
   transition: 1s;
 }
-
-.animationVideo1 .findVid {
+body .animationVideo1 .findVid {
   -webkit-transform: scale(1);
           transform: scale(1);
   opacity: 100%;
@@ -44,7 +42,14 @@ body {
           transition-delay: 500ms;
 }
 
-/* Esctructura principal, organización de tamaños */
+h2::-moz-selection, h3::-moz-selection, label::-moz-selection, input::-moz-selection, li::-moz-selection, p::-moz-selection {
+  background: none;
+}
+
+h2::selection, h3::selection, label::selection, input::selection, li::selection, p::selection {
+  background: none;
+}
+
 body .width-adjust {
   margin: 0 auto;
   width: 90%;
@@ -62,11 +67,11 @@ body .width-adjust {
   position: relative;
   width: 100%;
   height: 100vh;
+  gap: 0.5rem;
 }
 body .width-adjust main, body .width-adjust section, body .width-adjust footer {
-  border: 1.5px solid rgba(203, 203, 203, 0.8);
   border-radius: 15px;
-  background: rgba(203, 203, 203, 0.5);
+  background: rgba(7, 35, 80, 0.7);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
   display: -webkit-box;
@@ -86,6 +91,11 @@ body .width-adjust main, body .width-adjust section, body .width-adjust footer {
   max-width: 73.5vh;
   height: 55vh;
   padding: 25px 0px;
+  -webkit-transform: scale(2) translateY(0px);
+          transform: scale(2) translateY(0px);
+  opacity: 0%;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 body .width-adjust main .internal-width, body .width-adjust section .internal-width, body .width-adjust footer .internal-width {
   margin: auto;
@@ -108,18 +118,6 @@ body .width-adjust main .internal-width > :nth-child(1) h2, body .width-adjust m
   color: #E5E7EB;
   cursor: default;
 }
-body .width-adjust main .internal-width > :nth-child(1) h2::-moz-selection, body .width-adjust section .internal-width > :nth-child(1) h2::-moz-selection, body .width-adjust footer .internal-width > :nth-child(1) h2::-moz-selection {
-  background: none;
-}
-body .width-adjust main .internal-width > :nth-child(1) h2::selection, body .width-adjust section .internal-width > :nth-child(1) h2::selection, body .width-adjust footer .internal-width > :nth-child(1) h2::selection {
-  background: none;
-}
-body .width-adjust main .internal-width > :nth-child(1) h3::-moz-selection, body .width-adjust section .internal-width > :nth-child(1) h3::-moz-selection, body .width-adjust footer .internal-width > :nth-child(1) h3::-moz-selection {
-  background: none;
-}
-body .width-adjust main .internal-width > :nth-child(1) h3::selection, body .width-adjust section .internal-width > :nth-child(1) h3::selection, body .width-adjust footer .internal-width > :nth-child(1) h3::selection {
-  background: none;
-}
 body .width-adjust main .internal-width > :nth-child(2), body .width-adjust section .internal-width > :nth-child(2), body .width-adjust footer .internal-width > :nth-child(2) {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -129,25 +127,10 @@ body .width-adjust main .internal-width > :nth-child(2), body .width-adjust sect
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
 }
-
-/* Estrucura para mostror contenidos */
 body .width-adjust section, body .width-adjust footer {
   display: none;
 }
-body .width-adjust label::-moz-selection {
-  background: none;
-}
-body .width-adjust label::selection {
-  background: none;
-}
-body .width-adjust input[type=submit]::-moz-selection {
-  background: none;
-}
-body .width-adjust input[type=submit]::selection {
-  background: none;
-}
 
-/* INPUT SUBMIT CLASS */
 .gradient-input {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -164,11 +147,11 @@ body .width-adjust input[type=submit]::selection {
   background: rgb(7, 35, 80);
   padding: 10px 10px;
   color: white;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 600;
   cursor: pointer;
 }
 
-/* MAIN */
 body .width-adjust main .internal-width > :nth-child(2) {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -253,7 +236,6 @@ body .width-adjust main .internal-width > :nth-child(2) > :nth-child(1) input:fo
   transition: 0.5s;
 }
 
-/* SECTION */
 body .width-adjust section .internal-width > :nth-child(2) {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -321,18 +303,6 @@ body .width-adjust section .internal-width > :nth-child(2) > :nth-child(1) > :nt
 .width-adjust footer .internal-width h3 span {
   color: #E5E7EB;
 }
-.width-adjust footer .internal-width h3::-moz-selection {
-  background: none;
-}
-.width-adjust footer .internal-width h3::selection {
-  background: none;
-}
-.width-adjust footer .internal-width span::-moz-selection {
-  background: #073CA9;
-}
-.width-adjust footer .internal-width span::selection {
-  background: #073CA9;
-}
 .width-adjust footer .internal-width > :nth-child(2) {
   line-height: 0px;
 }
@@ -376,12 +346,6 @@ body .width-adjust section .internal-width > :nth-child(2) > :nth-child(1) > :nt
   font-weight: 400;
   content: "• ";
 }
-.width-adjust footer .internal-width > :nth-child(3) li::-moz-selection {
-  background: none;
-}
-.width-adjust footer .internal-width > :nth-child(3) li::selection {
-  background: none;
-}
 
 /* NAV */
 nav {
@@ -400,23 +364,19 @@ nav {
           justify-content: center;
   gap: 10px;
   width: 100%;
-  max-width: 67.5vh;
-  border: 1.5px solid rgba(203, 203, 203, 0.8);
+  max-width: 73.5vh;
   border-radius: 15px;
-  background: red;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
+  background: rgba(7, 35, 80, 0.7);
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  opacity: 0%;
 }
 nav > :nth-child(1) h3 {
   font-size: 12px;
   color: white;
   cursor: default;
-}
-nav > :nth-child(1) h3::-moz-selection {
-  background: none;
-}
-nav > :nth-child(1) h3::selection {
-  background: none;
 }
 nav > :nth-child(2) {
   display: -webkit-box;
@@ -424,8 +384,8 @@ nav > :nth-child(2) {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -487,12 +447,6 @@ nav > :nth-child(3) {
   display: none;
 }
 
-.width-adjust .transition-hide {
-  visibility: hidden;
-  opacity: 0;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
 .width-adjust .display-none {
   display: none;
 }
@@ -521,9 +475,11 @@ nav > :nth-child(3) {
   color: #d31b1b;
   cursor: default;
 }
-.error-div-show .error-class::-moz-selection {
-  background: none;
-}
-.error-div-show .error-class::selection {
-  background: none;
+
+.animationN3 #findMain, .animationN3 #findSection, .animationN3 #findFooter, .animationN3 #findNav {
+  -webkit-transform: scale(1) translateY(0px);
+          transform: scale(1) translateY(0px);
+  opacity: 100%;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
