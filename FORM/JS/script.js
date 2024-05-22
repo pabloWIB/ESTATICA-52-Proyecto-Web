@@ -11,7 +11,6 @@ $(function(){
     }, 1200);
 });
 
-
 const main = document.getElementById('findMain');
 const section = document.getElementById('findSection');
 const footer = document.getElementById('findFooter');
@@ -21,7 +20,6 @@ const formIndex = document.getElementById('formIndex').textContent = '1';
 const circleSelect1 = document.getElementById('circle-select1');
 const circleSelect2 = document.getElementById('circle-select2');
 const circleSelect3 = document.getElementById('circle-select3');
-
 
 const firstForm = document.getElementById('firstForm').addEventListener('submit', function(event){
     event.preventDefault();
@@ -56,25 +54,24 @@ const firstForm = document.getElementById('firstForm').addEventListener('submit'
     }
 });
 
-
 const secondForm = document.getElementById('secondForm').addEventListener('submit', function(event2){
     event2.preventDefault(); 
 
-    const softwareD = document.getElementById('softwareD').checked;
-    const userE = document.getElementById('userE').checked;
-    const graphicD = document.getElementById('graphicD').checked;
+    const optionN1 = document.getElementById('optionN1').checked;
+    const optionN2 = document.getElementById('optionN2').checked;
+    const optionN3 = document.getElementById('optionN3').checked;
     const formOptions = document.getElementById('formOptions');
     const selectedOptions = [];
 
-    if (softwareD) {
+    if (optionN1) {
         selectedOptions.push('Lectura de manos');
     }
 
-    if (userE) {
+    if (optionN2) {
         selectedOptions.push('Lectura de cartas');
     }
 
-    if (graphicD) {
+    if (optionN3) {
         selectedOptions.push('Lectura de bola');
     }
 

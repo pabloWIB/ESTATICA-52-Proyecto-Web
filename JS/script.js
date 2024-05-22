@@ -17,7 +17,6 @@ $(function(){
     }, 2700);
 });
 
-
 $(function(){
 	$(".Menu").click(function(e){
 		$(".overlayMenu").toggleClass("overlayMenuOpen");
@@ -34,7 +33,12 @@ $(function(){
 
 $(function(){
 	$(".findArrowUnderline").hover(function(e){
-		$(".textArea2").toggleClass("pene");
+		$(".textArea2").toggleClass("pen");
 	});
 });
 
+$(function(){
+	$("#closeButton").click(function(e){
+		$(".pantallaInfo").toggleClass("finalCloseAnimation");
+	});
+});

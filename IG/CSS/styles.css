@@ -1,0 +1,1713 @@
+body {
+  font-family: sans-serif;
+}
+
+.readmeBody {
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+.readmeBody > :nth-child(1) {
+  width: 80%;
+  max-width: 1200px;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+  padding: 1rem 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  gap: 1rem;
+  background: rgb(195, 195, 195);
+  -webkit-box-shadow: 1px 2px 3px 0.4px rgb(105, 105, 105);
+          box-shadow: 1px 2px 3px 0.4px rgb(105, 105, 105);
+}
+
+.instagramWeb {
+  width: 100%;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.instagramWeb > :nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 2rem;
+}
+.instagramWeb > :nth-child(1) > :nth-child(1), .instagramWeb > :nth-child(1) > :nth-child(4) {
+  height: 5vh;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(1) {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  place-content: center;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1), .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2), .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(3), .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(4), .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(5) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) img, .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) img, .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(3) img, .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(4) img, .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(5) img {
+  width: 100%;
+  max-width: 470px;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2), .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(3), .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(4), .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(5) {
+  position: absolute;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(1) .img1 {
+  -webkit-animation: img1 20s infinite;
+          animation: img1 20s infinite;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(1) .img2 {
+  -webkit-animation: img2 20s infinite;
+          animation: img2 20s infinite;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(1) .img3 {
+  -webkit-animation: img3 20s infinite;
+          animation: img3 20s infinite;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(1) .img4 {
+  -webkit-animation: img4 20s infinite;
+          animation: img4 20s infinite;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  width: 25%;
+  display: flex;
+  flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1), .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) {
+  padding: 1rem 1.2rem;
+  border: 1px solid #DBDBDB;
+  width: 90%;
+  gap: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) form, .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) form > :nth-child(1), .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) form > :nth-child(1) {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  gap: 0.75rem;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) form > :nth-child(1) > :nth-child(1), .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) form > :nth-child(1) > :nth-child(1) {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) form > :nth-child(1) > :nth-child(1) img, .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) form > :nth-child(1) > :nth-child(1) img {
+  width: 100%;
+  max-width: 175px;
+  cursor: pointer;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) form > :nth-child(1) > :nth-child(2), .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) form > :nth-child(1) > :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  gap: 0.5rem;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) form > :nth-child(1) > :nth-child(2) input, .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) form > :nth-child(1) > :nth-child(2) input {
+  font-size: 0.8rem;
+  padding: 0.765rem 0.65rem;
+  border: 1px solid #DBDBDB;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) form > :nth-child(1) > :nth-child(3), .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) form > :nth-child(1) > :nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  gap: 0.5rem;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) form > :nth-child(1) > :nth-child(3) > :nth-child(1), .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) form > :nth-child(1) > :nth-child(3) > :nth-child(1) {
+  width: 100%;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) form > :nth-child(1) > :nth-child(3) > :nth-child(1) input, .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) form > :nth-child(1) > :nth-child(3) > :nth-child(1) input {
+  all: unset;
+  width: 100%;
+  background: #4CB5F9;
+  text-align: center;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: 500;
+  padding: 0.45rem 0rem;
+  cursor: pointer;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2), .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) > :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) span, .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) > :nth-child(2) span {
+  color: dimgray;
+  font-size: 1.1rem;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1), .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(3), .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) > :nth-child(2) > :nth-child(1), .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) > :nth-child(2) > :nth-child(3) {
+  width: 50px;
+  height: 2px;
+  background: #DBDBDB;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3), .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) > :nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 0.5rem;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1), .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1), .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(1) > :nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5rem;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) img, .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) img {
+  width: 100%;
+  max-width: 30px;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) a, .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) a {
+  all: unset;
+  color: #3F51B5;
+  font-weight: 500;
+  cursor: pointer;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(2), .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(2) {
+  text-align: center;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(2) a, .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(2) a {
+  all: unset;
+  color: #3F51B5;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding: 0.1rem 1.2rem;
+  text-align: center;
+  place-content: center;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) p {
+  font-size: 0.85rem;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) p a {
+  all: unset;
+  cursor: pointer;
+  color: #4CB5F9;
+  font-weight: 600;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(3) {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.75rem;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(3) span {
+  font-size: 0.9rem;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(1) img {
+  width: 100%;
+  max-width: 91px;
+}
+.instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(2) img {
+  width: 100%;
+  max-width: 77px;
+}
+.instagramWeb > :nth-child(1) > :nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+  width: 90%;
+  margin: 0 auto;
+}
+.instagramWeb > :nth-child(1) > :nth-child(3) a {
+  all: unset;
+  color: #737373;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.instagramWeb > :nth-child(1) > :nth-child(3) a:hover {
+  text-decoration: underline;
+}
+.instagramWeb > :nth-child(1) > :nth-child(3) select {
+  background: none;
+  border: unset;
+  color: #737373;
+}
+
+@media (max-width: 1080px) {
+  .instagramWeb {
+    width: 100%;
+    display: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .instagramWeb > :nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    place-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 2rem;
+  }
+  .instagramWeb > :nth-child(1) > :nth-child(1), .instagramWeb > :nth-child(1) > :nth-child(4) {
+    height: 5vh;
+  }
+  .instagramWeb > :nth-child(1) > :nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1rem;
+  }
+  .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(1) {
+    display: none;
+  }
+  .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) {
+    width: 50%;
+  }
+  .instagramWeb > :nth-child(1) > :nth-child(3) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 1rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .instagramWeb > :nth-child(1) > :nth-child(3) a {
+    all: unset;
+    color: #737373;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  .instagramWeb > :nth-child(1) > :nth-child(3) a:hover {
+    text-decoration: underline;
+  }
+  .instagramWeb > :nth-child(1) > :nth-child(3) select {
+    background: none;
+    border: unset;
+    color: #737373;
+  }
+}
+@media (max-width: 585px) {
+  .instagramWeb {
+    width: 100%;
+    display: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .instagramWeb > :nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    place-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 2rem;
+  }
+  .instagramWeb > :nth-child(1) > :nth-child(1), .instagramWeb > :nth-child(1) > :nth-child(4) {
+    height: 5vh;
+  }
+  .instagramWeb > :nth-child(1) > :nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1rem;
+  }
+  .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(1) {
+    display: none;
+  }
+  .instagramWeb > :nth-child(1) > :nth-child(2) > :nth-child(2) {
+    width: 75%;
+  }
+  .instagramWeb > :nth-child(1) > :nth-child(3) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 1rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .instagramWeb > :nth-child(1) > :nth-child(3) a {
+    all: unset;
+    color: #737373;
+    cursor: pointer;
+    font-size: 0.7rem;
+  }
+  .instagramWeb > :nth-child(1) > :nth-child(3) a:hover {
+    text-decoration: underline;
+  }
+  .instagramWeb > :nth-child(1) > :nth-child(3) select {
+    background: none;
+    border: unset;
+    color: #737373;
+  }
+}
+.showLoad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.load {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+.load > :nth-child(1) {
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.load > :nth-child(1) > :nth-child(2) {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  -webkit-animation: rotateFull 1.7s linear infinite;
+          animation: rotateFull 1.7s linear infinite;
+}
+.load > :nth-child(1) > :nth-child(2) img {
+  width: 100%;
+  max-width: 60px;
+}
+.load > :nth-child(1) > :nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.load > :nth-child(1) > :nth-child(3) > :nth-child(1) {
+  font-size: 0.7rem;
+  color: dimgray;
+}
+.load > :nth-child(1) > :nth-child(3) > :nth-child(2) {
+  width: 100%;
+}
+.load > :nth-child(1) > :nth-child(3) > :nth-child(2) img {
+  width: 100%;
+  max-width: 80px;
+}
+
+.hideLoad {
+  display: none;
+}
+
+.error-div-hide {
+  display: none;
+}
+
+.hideMe {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.floatReadMe0 {
+  display: none;
+}
+
+.floatReadMe {
+  all: unset;
+  position: absolute;
+  cursor: pointer;
+  top: 2%;
+  left: 1%;
+  border-radius: 2rem;
+  background: white;
+  -webkit-box-shadow: 2px 2px 5px 2px rgb(174, 174, 174);
+          box-shadow: 2px 2px 5px 2px rgb(174, 174, 174);
+  padding: 1rem;
+}
+
+.error-div-show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  gap: 5px;
+  width: 95%;
+  margin: 0 auto;
+}
+.error-div-show p {
+  all: unset;
+  font-size: 13px;
+  font-weight: 400;
+  color: #d31b1b;
+  cursor: default;
+}
+.error-div-show .error-class::-moz-selection {
+  background: none;
+}
+.error-div-show .error-class::selection {
+  background: none;
+}
+
+.normalIg {
+  display: none;
+}
+
+.showNormalIg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+.showNormalIg .flotting {
+  position: fixed;
+  width: 19.3%;
+  border-right: 1px solid rgb(69, 69, 69);
+}
+.showNormalIg .flotting > :nth-child(1) {
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+}
+.showNormalIg .flotting > :nth-child(1) > :nth-child(1) {
+  cursor: pointer;
+  margin: 0.6rem 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+.showNormalIg .flotting > :nth-child(1) > :nth-child(1) > :nth-child(1) img, .showNormalIg .flotting > :nth-child(1) > :nth-child(1) > :nth-child(2) img {
+  width: 100%;
+  max-width: 90px;
+}
+.showNormalIg .flotting > :nth-child(1) > :nth-child(1) > :nth-child(2) {
+  display: none;
+}
+.showNormalIg .flotting > :nth-child(1) > :nth-child(2) {
+  height: 87%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.showNormalIg .flotting > :nth-child(1) > :nth-child(2) > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  cursor: pointer;
+  place-content: center;
+  border-radius: 0.5rem;
+}
+.showNormalIg .flotting > :nth-child(1) > :nth-child(2) > div:hover {
+  background: #ededed;
+}
+.showNormalIg .flotting > :nth-child(1) > :nth-child(2) > div > :nth-child(1) {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.64rem;
+}
+.showNormalIg .flotting > :nth-child(1) > :nth-child(2) > div > :nth-child(1) > :nth-child(2n) h5 {
+  all: unset;
+  font-weight: 700;
+}
+.showNormalIg .normalSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+.showNormalIg .normalSection > :nth-child(1) {
+  width: 19.3%;
+}
+.showNormalIg .normalSection > :nth-child(2) {
+  width: 55.7%;
+}
+.showNormalIg .normalSection > :nth-child(3) {
+  width: 25%;
+}
+.showNormalIg .normalSection > :nth-child(3) > :nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+.showNormalIg .normalSection > :nth-child(3) > :nth-child(1) .spaceProfile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1.25rem 0rem;
+}
+.showNormalIg .normalSection > :nth-child(3) > :nth-child(1) .spaceProfile > :nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 0.5rem;
+}
+.showNormalIg .normalSection > :nth-child(3) > :nth-child(1) .spaceProfile > :nth-child(1) > :nth-child(1) img {
+  width: 100%;
+  max-width: 50px;
+}
+.showNormalIg .normalSection > :nth-child(3) > :nth-child(1) .spaceProfile > :nth-child(1) > :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  gap: 0.25rem;
+}
+.showNormalIg .normalSection > :nth-child(3) > :nth-child(1) .spaceProfile > :nth-child(1) > :nth-child(2) h5 {
+  all: unset;
+  font-size: 0.85rem;
+}
+.showNormalIg .normalSection > :nth-child(3) > :nth-child(1) .spaceProfile > :nth-child(1) > :nth-child(2) > :nth-child(1) {
+  font-weight: 600;
+}
+.showNormalIg .normalSection > :nth-child(3) > :nth-child(1) .spaceProfile > :nth-child(2) h5 {
+  all: unset;
+  font-size: 0.825rem;
+  color: #4CB5F9;
+  font-weight: 600;
+}
+.showNormalIg .normalSection > :nth-child(3) > :nth-child(1) > :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.showNormalIg .normalSection > :nth-child(3) > :nth-child(1) > :nth-child(2) h5 {
+  all: unset;
+  font-size: 0.825rem;
+}
+.showNormalIg .normalSection > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(1) {
+  color: rgb(59, 59, 59);
+}
+.showNormalIg .normalSection > :nth-child(3) > :nth-child(1) > :nth-child(4) {
+  margin-top: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+.showNormalIg .normalSection > :nth-child(3) > :nth-child(1) > :nth-child(4) a {
+  all: unset;
+  color: #737373;
+  cursor: pointer;
+  font-size: 0.825rem;
+}
+.showNormalIg .normalSection > :nth-child(3) > :nth-child(1) > :nth-child(4) a:hover {
+  text-decoration: underline;
+}
+.showNormalIg .normalSection > :nth-child(3) > :nth-child(1) > :nth-child(4) p {
+  color: #737373;
+  font-size: 0.825rem;
+}
+
+@media (max-width: 1150px) {
+  .showNormalIg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  .showNormalIg .flotting {
+    position: fixed;
+    width: 7.5%;
+    border-right: 1px solid rgb(69, 69, 69);
+  }
+  .showNormalIg .flotting > :nth-child(1) {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+  }
+  .showNormalIg .flotting > :nth-child(1) > :nth-child(1) {
+    cursor: pointer;
+    margin: 0.6rem 0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  .showNormalIg .flotting > :nth-child(1) > :nth-child(1) > :nth-child(1) {
+    display: none;
+  }
+  .showNormalIg .flotting > :nth-child(1) > :nth-child(1) > :nth-child(2) {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    place-content: center;
+  }
+  .showNormalIg .flotting > :nth-child(1) > :nth-child(1) > :nth-child(2) img {
+    width: 100%;
+    max-width: 3rem;
+  }
+  .showNormalIg .flotting > :nth-child(1) > :nth-child(2) > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    cursor: pointer;
+    place-content: center;
+    border-radius: 0.5rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    place-content: center;
+  }
+  .showNormalIg .flotting > :nth-child(1) > :nth-child(2) > div:hover {
+    background: #ededed;
+  }
+  .showNormalIg .flotting > :nth-child(1) > :nth-child(2) > div > :nth-child(1) {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 0.145rem;
+  }
+  .showNormalIg .flotting > :nth-child(1) > :nth-child(2) > div > :nth-child(1) > :nth-child(2n) {
+    display: none;
+  }
+  .showNormalIg .normalSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  .showNormalIg .normalSection > :nth-child(1) {
+    width: 10%;
+  }
+  .showNormalIg .normalSection > :nth-child(2) {
+    width: 80.7%;
+  }
+  .showNormalIg .normalSection > :nth-child(3) {
+    display: none;
+    background: red;
+  }
+}
+.showNormalIg .normalSection > :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(1) {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(1) > :nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  place-content: center;
+  width: 92%;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) {
+  width: 98%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: 0.5rem 0rem;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1n) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.125rem;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1n) > :nth-child(1) {
+  cursor: pointer;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1n) > :nth-child(1) img {
+  width: 100%;
+  max-width: 4.275rem;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1n) > :nth-child(2) {
+  cursor: pointer;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) {
+  width: 90%;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  gap: 0.25rem;
+  margin-bottom: 3rem;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  align-items: center;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(1) > :nth-child(1) img {
+  width: 100%;
+  max-width: 3rem;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(1) > :nth-child(2) h4 {
+  all: unset;
+  font-size: 0.9rem;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(1) > :nth-child(2) h4 span {
+  color: #737373;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(2) img {
+  width: 100%;
+  max-width: 2.5rem;
+  cursor: pointer;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .bodyPost {
+  border: 1px solid black;
+  -webkit-box-shadow: 2px 3px 5px 1px rgb(88, 88, 88);
+          box-shadow: 2px 3px 5px 1px rgb(88, 88, 88);
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .bodyPost img, .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .bodyPost video {
+  width: 100%;
+  max-width: 500px;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .bodyPost iframe {
+  width: 475px;
+  height: 675px;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .footerPost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  margin-top: 0.5rem;
+  gap: 0.5rem;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .footerPost > :nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .footerPost > :nth-child(1) > :nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5rem;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .footerPost > :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  gap: 0.5rem;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .footerPost > :nth-child(2) h5 {
+  all: unset;
+  margin: 0.5rem 0rem;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .footerPost > :nth-child(2) h5 span {
+  color: rgb(71, 71, 71);
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .footerPost > :nth-child(2) > :nth-child(4) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .footerPost > :nth-child(2) > :nth-child(4) > :nth-child(2) img {
+  width: 100%;
+  max-width: 1rem;
+}
+.showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) {
+  background: #4CB5F9;
+}
+
+@media (max-width: 800px) {
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1n) > :nth-child(1) img {
+    width: 100%;
+    max-width: 3.275rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 2rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(1) {
+    gap: 1rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(1) > :nth-child(1) img {
+    width: 100%;
+    max-width: 2.75rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(1) > :nth-child(2) h4 {
+    font-size: 0.8rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(2) img {
+    max-width: 2.35rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .bodyPost img, .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .bodyPost video {
+    max-width: 400px;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .bodyPost iframe {
+    width: 475px;
+    height: 675px;
+  }
+}
+@media (max-width: 750px) {
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1n) > :nth-child(1) img {
+    width: 100%;
+    max-width: 3rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8) {
+    display: none;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 2rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(1) {
+    gap: 1rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(1) > :nth-child(1) img {
+    width: 100%;
+    max-width: 2.75rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(1) > :nth-child(2) h4 {
+    font-size: 0.8rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(2) img {
+    max-width: 2.35rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .bodyPost img, .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .bodyPost video {
+    max-width: 400px;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .bodyPost iframe {
+    width: 475px;
+    height: 675px;
+  }
+}
+@media (max-width: 650px) {
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1n) > :nth-child(1) img {
+    width: 100%;
+    max-width: 3rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7) {
+    display: none;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 2rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(1) {
+    gap: 1rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(1) > :nth-child(1) img {
+    width: 100%;
+    max-width: 2.75rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(1) > :nth-child(2) h4 {
+    font-size: 0.8rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(2) img {
+    max-width: 2.35rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .bodyPost img, .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .bodyPost video {
+    max-width: 350px;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .bodyPost iframe {
+    width: 375px;
+    height: 575px;
+  }
+}
+@media (max-width: 550px) {
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1n) > :nth-child(1) img {
+    width: 100%;
+    max-width: 3rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6) {
+    display: none;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 2rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(1) {
+    gap: 1rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(1) > :nth-child(1) img {
+    width: 100%;
+    max-width: 2.75rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(1) > :nth-child(2) h4 {
+    font-size: 0.8rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(2) img {
+    max-width: 2.35rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .bodyPost img, .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .bodyPost video {
+    max-width: 250px;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .bodyPost iframe {
+    width: 275px;
+    height: 475px;
+  }
+}
+@media (max-width: 450px) {
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1n) > :nth-child(1) img {
+    width: 100%;
+    max-width: 3rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5) {
+    display: none;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 2rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(1) {
+    gap: 1rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(1) > :nth-child(1) img {
+    width: 100%;
+    max-width: 2.75rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(1) > :nth-child(2) h4 {
+    font-size: 0.8rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .headerPost > :nth-child(2) img {
+    max-width: 2.35rem;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .bodyPost img, .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .bodyPost video {
+    max-width: 150px;
+  }
+  .showNormalIg .normalSection > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) .post .bodyPost iframe {
+    width: 175px;
+    height: 375px;
+  }
+}
+#touch1:hover > :nth-child(1) > :nth-child(1) {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#touch2:hover > :nth-child(1) > :nth-child(1) {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#touch3:hover > :nth-child(1) > :nth-child(1) {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#touch4:hover > :nth-child(1) > :nth-child(1) {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#touch5:hover > :nth-child(1) > :nth-child(1) {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#touch6:hover > :nth-child(1) > :nth-child(1) {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#touch7:hover > :nth-child(1) > :nth-child(1) {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#touch8:hover > :nth-child(1) > :nth-child(1) {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@-webkit-keyframes img1 {
+  0% {
+    visibility: visible;
+    opacity: 1;
+  }
+  25% {
+    visibility: visible;
+    opacity: 1;
+  }
+  50% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  75% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+@keyframes img1 {
+  0% {
+    visibility: visible;
+    opacity: 1;
+  }
+  25% {
+    visibility: visible;
+    opacity: 1;
+  }
+  50% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  75% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes img2 {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  25% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  50% {
+    visibility: visible;
+    opacity: 1;
+  }
+  75% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+@keyframes img2 {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  25% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  50% {
+    visibility: visible;
+    opacity: 1;
+  }
+  75% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes img3 {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  25% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  50% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  75% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+@keyframes img3 {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  25% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  50% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  75% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes img4 {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  25% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  50% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  75% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+@keyframes img4 {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  25% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  50% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  75% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes rotateFull {
+  0% {
+    -webkit-transform: rotate(120deg);
+            transform: rotate(120deg);
+  }
+  50% {
+    -webkit-transform: rotate(240deg);
+            transform: rotate(240deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotateFull {
+  0% {
+    -webkit-transform: rotate(120deg);
+            transform: rotate(120deg);
+  }
+  50% {
+    -webkit-transform: rotate(240deg);
+            transform: rotate(240deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
